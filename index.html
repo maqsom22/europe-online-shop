@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Europe Online Shop</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+    <div class="logo">Europe Online Shop</div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Categories</a><a href="#categories">Categories</a>
+        <a href="#">Contact</a>
+        <a href="#cart">🛒 Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+</header>
+
+   <section class="hero">
+    <div class="hero-content">
+        <h1>Discover Your Style</h1>
+        <p>Shop the latest fashion and trends at Europe Online Shop.</p>
+        <button onclick="document.querySelector('.products').scrollIntoView({behavior: 'smooth'})">
+    Shop Now
+</button>
+    </div>
+</section>
+<section class="cart-section" id="cart">
+    <h2>Your Cart</h2>
+
+    <div id="cart-items">
+        <p>Your cart is empty.</p>
+    </div>
+
+    <h3>Total: <span id="cart-total">0</span> IQD</h3>
+</section>
+<section class="products">
+    <div class="search-box">
+    <input type="text" id="search-input" placeholder="Search products...">
+</div>
+    <h2>Featured Products</h2>
+    <p class="product-count">3 Products Available</p>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <span class="new-badge">NEW</span>
+            <img src="product1.jpg" alt="Product 1" class="product-image">
+            <h3>Product 1</h3>
+            <p>25,000 IQD</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <span class="sale-badge">SALE</span>
+            <div class="product-image">Product Image</div>
+            <h3>Product 2</h3>
+            <p>30,000 IQD</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">Product Image</div>
+            <h3>Product 3</h3>
+            <p>35,000 IQD</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+<section class="categories"><section class="categories" id="categories"></section>
+    <h2>Shop by Category</h2>
+
+    <div class="category-grid">
+
+        <div class="category-card">
+            <h3>SHAMPO</h3>
+            <p>shampo</p>
+        </div>
+
+        <div class="category-card">
+            <h3> MASK</h3>
+            <p>shampo mask</p>
+        </div>
+
+        <div class="category-card">
+            <h3>SPRAY</h3>
+            <p>HAIR SPRAY</p>
+        </div>
+
+    </div>
+</section>
+<section class="contact">
+    <h2>Contact Us</h2>
+
+    <p>Have a question? Contact Europe Online Shop.</p>
+
+    <div class="contact-info">
+        <p>📱 WhatsApp: +964 751 816 3353</p>
+        <p>📸 Instagram: @europe_online_shop</p>
+        <p></p>
+    </div>
+
+    <button>Contact Us</button>
+</section>
+<section class="cart-section" id="cart">
+    <h2>Your Cart</h2>
+
+    <div id="cart-items">
+        <p>Your cart is empty.</p>
+    </div>
+
+    <h3>Total: <span id="cart-total">0</span> IQD</h3>
+</section>
+</body>
+
+<footer>
+    <p>© 2026 Europe Online Shop. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
