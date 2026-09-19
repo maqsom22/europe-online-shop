@@ -118,4 +118,6 @@ searchInput.addEventListener("input", function () {
 
     });
 
-});
+});function toggleMenu() {
+    document.querySelector("nav").classList.toggle("show");
+}
