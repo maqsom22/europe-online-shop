@@ -319,4 +319,34 @@ footer p {
     font-weight: bold;
     border-radius: 4px;
     margin-bottom: 10px;
+}.menu-btn {
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-btn {
+    display: none;
+    font-size: 28px;
+    background: white;
+    color: #222;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .menu-btn {
+        display: block !important;
+    }
+
+    nav {
+        display: none !important;
+    }
+
+    nav.show {
+        display: flex !important;
+    }
+}
 }
